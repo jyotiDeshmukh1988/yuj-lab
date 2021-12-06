@@ -27,9 +27,9 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
-// let umang = new Person('Umang','Paunikar','Pune');
-// let message =  umang.greet();
-// console.log(message);
+var umang = new Person('Umang', 'Paunikar', 'Pune');
+var message = umang.greet();
+console.log(message);
 //inheritance ?
 var Student = /** @class */ (function (_super) {
     __extends(Student, _super);

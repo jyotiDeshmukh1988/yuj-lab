@@ -18,9 +18,9 @@ class Person {
   }
 }
 
-// let umang = new Person('Umang','Paunikar','Pune');
-// let message =  umang.greet();
-// console.log(message);
+let umang = new Person('Umang', 'Paunikar', 'Pune');
+let message = umang.greet();
+console.log(message);
 
 //inheritance ?
 
@@ -41,6 +41,10 @@ class Student extends Person {
     this.exam = exam;
     this.marks = mark;
     this.attendace = att;
+  }
+
+  test() {
+    console.log(this.firstName);
   }
 
   takeExam() {

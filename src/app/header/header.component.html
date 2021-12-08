@@ -5,12 +5,7 @@
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
 </div>
-<ul>
-  <li *ngFor="let person of personDetails">
-    <h3>{{person.name}} - {{person.addres}} - {{person['age limit']}}</h3>
-    <yuj-profile [personName] = "person.name"></yuj-profile>
-  </li>
-</ul>
+
 <!-- 
 <h2>
   Name person : {{personDetails[2].name }}
@@ -23,4 +18,3 @@
 <yuj-profile [personName]="'Bhavyansh Deshmukh'"></yuj-profile>
 <yuj-profile [personName]="'Priya Deshmukh'"></yuj-profile>
 <yuj-profile [personName]="'Tanvi Deshmukh'"></yuj-profile>-->
-

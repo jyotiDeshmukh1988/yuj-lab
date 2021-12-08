@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ListProfileComponent } from './list-profile/list-profile.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProfileComponent } from './profile/profile.component';
     FooterComponent,
     SidebarComponent,
     MainContainerComponent,
-    ProfileComponent
+    ProfileComponent,
+    ListProfileComponent
   ],
   imports: [
     BrowserModule,

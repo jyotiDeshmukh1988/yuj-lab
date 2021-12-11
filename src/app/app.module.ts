@@ -51,6 +51,7 @@ const appRoutes: Routes = [
     DashboardComponent,
     LoginComponent,
     HomeComponent,
+    RegistrationComponent,
   ],
   imports: [
     BrowserModule,

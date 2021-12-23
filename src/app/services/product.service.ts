@@ -20,7 +20,7 @@ export class ProductService {
     */
   }
   getProductProfiles() {
-    /*return [
+    return [
       {
         name: 'Build',
         shotDescription: 'Acc backend development with fully managed suite',
@@ -40,6 +40,5 @@ export class ProductService {
         productFeatures: ['Remote firestore', 'Google Authenication'],
       },
     ];
-    */
   }
 }

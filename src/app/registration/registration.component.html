@@ -22,7 +22,7 @@
     />
 
     <div class="form-control-feedback">
-      <p *ngIf="registationForm.controls.lastName.valid">
+      <p *ngIf="registationForm.controls.lastName.errors && registationForm.controls.lastName.touched">
         Last Name is required
       </p>
     </div>

@@ -1,16 +1,28 @@
-<div class="card">
-  <img [src]="profileUrl" class="card-img-top" alt="..." />
-  <div class="card-body">
-    <h5 class="card-title">{{ productConfigs.name }}</h5>
-    <p class="card-text">
-      {{ productConfigs.shotDescription }}Some quick example text to build on
-      the card title and make up the bulk of the card's content.
-    </p>
-    <ul>
-      <li *ngFor="let feature of productConfigs.productFeatures">
-        {{ feature }}
-      </li>
-    </ul>
-    <a href="#" class="btn btn-primary">{{ productConfigs.linkTitle }}</a>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <figure class="card card-product">
+        <div class="img-wrap">
+          <img
+            src="{{ productConfigs.image }}"
+            alt="{{ productConfigs.title }}"
+          />
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots">
+            <a href="#">{{ productConfigs.title }}</a>
+          </h6>
+          <div class="action-wrap">
+            <a href="#" class="btn btn-primary btn-sm float-right"> View </a>
+            <div class="price-wrap h5">
+              <span class="price-new">$ {{ productConfigs.price }}</span>
+            </div>
+            <!-- price-wrap.// -->
+          </div>
+          <!-- action-wrap -->
+        </figcaption>
+      </figure>
+      <!-- card // -->
+    </div>
   </div>
 </div>
